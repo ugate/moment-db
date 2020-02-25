@@ -1,0 +1,28 @@
+{
+  "name": "moment-db",
+  "version": "1.0.0",
+  "description": "Moment implementation for formatting Dates into ANSI compatible strings suitable for database consumption",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugate/moment-db.git"
+  },
+  "keywords": [
+    "Moment",
+    "Database",
+    "DB"
+  ],
+  "author": "ugate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ugate/moment-db/issues"
+  },
+  "homepage": "https://github.com/ugate/moment-db#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}

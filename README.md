@@ -1,21 +1,25 @@
 # moment-db
 Moment implementation for formatting Dates into ANSI compatible strings suitable for database consumption.
 
+`npm install moment-db`
+
+`import MomentDB from 'moment-db.js'`
+
 Assume the date/time notation below.
 
-| <u>Notation</u>           | <u>Description</u>                    | <u></u>
-| :---                      | :---                                  | :---
-| YYYY                      | 4-digit year                          |
-| MM                        | 2-digit month (01 to 12)              |
-| DD                        | 2-digit day (01 to 31)                |
-| HH                        | 2-digit hour (00 to 23)               |
-| MI                        | 2-digit minute (00 to 59)             |
-| SS                        | 2-digit second (00 to 59)             |
-| FFF                       | Fraction of a second (1 to 9 digits)  |
-| TH                        | 2-digit hour offset (-12 to 14)       |
-| TM                        | 2-digit minute offset (00 to 59)      |
-| YEARS                     | Number of years (max of 9999)         |
-| DAYS                      | Number of days (max of 3652047)       |
+| <u>Notation</u>           | <u>Description</u>
+| :---                      | :---
+| YYYY                      | 4-digit year
+| MM                        | 2-digit month (01 to 12)
+| DD                        | 2-digit day (01 to 31)
+| HH                        | 2-digit hour (00 to 23)
+| MI                        | 2-digit minute (00 to 59)
+| SS                        | 2-digit second (00 to 59)
+| FFF                       | Fraction of a second (1 to 9 digits)
+| TH                        | 2-digit hour offset (-12 to 14)
+| TM                        | 2-digit minute offset (00 to 59)
+| YEARS                     | Number of years (max of 9999)
+| DAYS                      | Number of days (max of 3652047)
 
 Using the forementioned notation, the following database data types can be used to construct ANSI compliant date/time formats:
 
